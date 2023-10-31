@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>Selection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            color: #fff;
+            background-image: linear-gradient(to bottom, rgba(34, 16, 241, 1), rgba(241, 13, 27, 1));
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 100%;
+            max-width: 300px;
+            height: 550px;    
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+        .fa-bus {
+    font-size: 72px;
+    color: white; 
+    border: 2px solid white;
+    border-radius: 50%; 
+    padding: 10px; 
+}
+       
+        
+        .dropdowns {
+            display: flex;
+            justify-content: space-between;
+            width: 300px;
+            margin-top: 30px    
+        }
+        .dropdown {
+            flex: 1;
+            margin: 5px;
+            margin-top: 10px; 
+            padding: 5px;  
+        }
+        .text-input {
+            width: 200px;
+            height: 30px;
+            margin-top: 30px;
+            text-align: center;
+            margin-left: 50px;
+            border-radius: 40px;
+            border: none;
+       }
+       .next-button {
+    display: inline-block;
+    padding: 10px;
+    background-color: pink; 
+    color: black; 
+    text-decoration: none; 
+    border: 2px solid #0074d9; 
+    margin-left: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    width: 50%;
+    text-align: center; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+    color: #fff; 
+}
+.button{
+    margin-left: 70px;
+    align-items: center;
+    margin-top: 40px;
+}
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <i class="fas fa-bus" style="font-size: 48px;"></i>
+        </div>
+        <div class="dropdowns">
+            <select class="dropdown">
+                <option value="option1">From:</option>
+                <option value="option2">GT Mall</option>
+                <option value="option3">CPU</option>
+                <option value="option3">Ungka,Jaro</option>
+                <option value="option3">Jaro,Plaza</option>
+                
+            </select>
+            <select class="dropdown">
+                <option value="optionA">Destination:</option>
+                <option value="optionB">Rob,Jaro</option>
+                <option value="optionC">WIT</option>
+                <option value="optionC">Gaisano,Lapaz</option>
+                <option value="optionC">Capitol</option>
+
+            </select>
+        </div>
+        <input type="text" class="text-input" placeholder="Student/Child">
+        <input type="text" class="text-input" placeholder="Adult">
+        <input type="text" class="text-input" placeholder="PWD">
+        <input type="text" class="text-input" placeholder="Senior Cetizen">
+
+        <div class="button">
+            <a class="next-button" href="Buy Ticket.html">Next</a>
+            </div>
+       
+        
+    </div>  
+</body>
+</html>
